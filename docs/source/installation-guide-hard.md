@@ -236,7 +236,7 @@ Then create a conda environment to your liking within that folder. Here we have 
 be the obvious default - call it whatever you like. You can install whatever you like into this environment, but you MUST at least install `ipykernel`.
 
 ```sh
-sudo /opt/conda/bin/conda create --prefix /opt/conda/envs/python python=3.7 ipykernel
+sudo /opt/conda/bin/conda create -y --prefix /opt/conda/envs/python python=3.7 ipykernel
 ```
 
 Once your env is set up as desired, make it visible to Jupyter by installing the kernel spec. There are two options here:
